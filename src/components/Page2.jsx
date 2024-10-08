@@ -29,7 +29,7 @@ const Page2 = () => {
             UI/UX design, mobile, and web development.
           </p>
         </div>
-        <button className="button2 mt-[5vh] text-[26px] w-[450px] h-[20vh] rounded-full border-[1px] border-black flex items-center justify-center">
+        <button className="button2 mt-[5vh] text-[26px] w-[80vw] sm:w-[450px] h-[20vh] rounded-full border-[1px] border-black flex items-center justify-center">
           <div className=" overflow-hidden w-fit h-[31px] leading-[1.1]">
             <div className="btn2txt">
               <h1>What we do</h1>

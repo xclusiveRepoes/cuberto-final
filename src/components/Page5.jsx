@@ -92,7 +92,7 @@ const Page5 = () => {
         <div className='md:w-full md:flex items-center justify-center'>
             <div className='w-full md:w-[40vw] px-[20px] text-[5vw] md:text-[2vw] h-[50vh] flex flex-col justify-center gap-10'>
                 <p>We regularly release design courses, offer advice to newbie designers, walk you through creating awesome effects, and share source files.</p>
-                <div className='button5 border-[1px] border-white w-[60vw] md:w-[35vw] md:h-[5vw] h-[10vw] flex items-center justify-center rounded-full cursor-pointer '><div className='relative w-full h-[2vw] flex items-center justify-center overflow-y-hidden '><div className='hov5 w-[52vw] md:w-[22vw] flex flex-col absolute top-0 '><p className='uppercase'>view all resources</p><p className='uppercase '>view all resources</p></div></div></div>
+                <div className='button5 border-[1px] border-white w-[60vw] md:w-[35vw] md:h-[5vw] h-[10vw] flex items-center justify-center rounded-full cursor-pointer '><div className='relative w-full h-[5vw] sm:h-[2vw] flex items-center justify-center overflow-y-hidden '><div className='hov5 w-[52vw] md:w-[22vw] flex flex-col absolute top-0 '><p className='uppercase'>view all resources</p><p className='uppercase '>view all resources</p></div></div></div>
             </div>
         </div>
 

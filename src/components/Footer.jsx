@@ -24,16 +24,16 @@ const Footer = () => {
           </div>
         </div>
         <div className='absolute sm:gap-[3vw] md:gap-[1vw] w-full bottom-0 px-[4vw] sm:px-[2vw] py-[3vh] sm:flex items-center'>
-          <div className='btnF1 mb-[2vw] rounded-full border-[1px] w-fit py-[1vw] text-[4vw] sm:mb-0 sm:text-[1vw] cursor-pointer'>
-            <div className='uppercase h-[4vw] sm:h-[1.5vw] px-[1.5vw] overflow-hidden'>
+          <div className='btnF1 mb-[2vw] rounded-full border-[1px] w-fit py-[2vw] text-[4vw] sm:mb-0 sm:text-[1vw] cursor-pointer'>
+            <div className='uppercase h-[5vw] sm:h-[1.5vw] px-[1.5vw] overflow-hidden'>
               <div className='btnF1C '>
                 <h1>info@cuberto.com</h1>
                 <h1>info@cuberto.com</h1>
               </div>
             </div>
           </div>
-          <div className='btnF1 rounded-full border-[1px] w-fit  py-[1vw] text-[4vw] sm:text-[1vw] cursor-pointer'>
-            <div className='uppercase h-[4vw] sm:h-[1.5vw] px-[1.5vw] w-fit overflow-hidden '>
+          <div className='btnF1 rounded-full border-[1px] w-fit  py-[2vw] text-[4vw] sm:text-[1vw] cursor-pointer'>
+            <div className='uppercase h-[5vw] sm:h-[1.5vw] px-[1.5vw] w-fit overflow-hidden '>
               <div className='btnF1C '>
                 <h1>+1301 549 9309</h1>
                 <h1>+1301 549 9309</h1>
