@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: font1;
+}
+@font-face {
+    font-family: font1;
+    src: url(./assets/font1.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./assets/font2.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(./assets/font3.ttf);
+}
+*::selection{
+    background-color: #424242;
+    color: white;
+}
+nav{
+    font-family: font2;
+}
+.sideMenu{
+    font-family: font1;
+}
+.social{
+    transition: all .3s ease-in-out;
+}
+.line1, .line2{
+    mix-blend-mode: color;
+}
+.sideMenuElem:hover .social{
+    transform: translateY(-50%);
+}
+.thin{
+    font-family: font1;
+    font-weight: 100;
+}
+.hero h1{
+    font-family: font1;
+    font-weight: 500;
+}
+.btn2txt{
+    transition: .3s;
+}
+.button2:hover .btn2txt{
+    transform: translateY(-50%);
+}
+.button2{
+    position: relative;
+    overflow: hidden;
+}
+.button2::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    transition: .3s;
+    border-radius: 50%;
+
+}
+.button2:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.button2:hover h1{
+    color: white;
+}
+.page3{
+    font-family: font1;
+    
+}
+.circle{
+    pointer-events: none;
+}
+.page4{
+    font-family: font1;
+}
+.anim1{
+    transform: translateX(-50%);
+}
+.page5{
+    font-family: font1;
+}
+/* .anim2{
+    animation: anim2 infinite linear 15s;
+}
+@keyframes anim2 {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
+} */
+.hov5{
+    transition: all .4s ease;
+}
+.button5:hover .hov5{
+    transform: translateY(-50%);
+    color: black;
+}
+.button5{
+    overflow: hidden;
+    position: relative;
+}
+.button5::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all ease .4s;
+}
+.button5:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.btn6{
+    position: relative;
+    overflow: hidden;
+}
+.btn6::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    border-radius: 100%;
+    left: 0;
+    background-color: #fff;
+    transition: all ease .4s;
+}
+.btnTxt6{
+    transition: all ease .4s;
+}
+.btn6:hover .btnTxt6{
+    transform: translateY(-50%);
+    color: black;
+}
+.btn6:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.btnF{
+    position: relative;
+    overflow: hidden;
+}
+.btnF::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: all ease .5s;
+    border-radius: 50%;
+}
+.btnF:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.btnFContainer{
+    transition: all ease .4s;
+}
+.btnF:hover .btnFContainer{
+    transform: translateY(-50%);
+    color: black;
+}
+.btnF1{
+    position: relative;
+    overflow: hidden;
+}
+.btnF1C{
+    transition: all ease .4s;
+}
+.btnF1:hover .btnF1C{
+    transform: translateY(-50%);
+    color: black;
+}
+.btnF1::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all ease .4s;
+    border-radius: 50%;
+}
+.btnF1:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.lineF{
+    transition: all ease .3s;
+}
+.privacyF:hover .lineF{
+    width: 100%;
+}
